@@ -2,7 +2,16 @@
 
 Tomato is a comprehensive food delivery website tailored for a **local restaurant**, built using a robust stack of **HTML, CSS, JavaScript, PHP, XAMPP, and MySQL**. It provides a seamless experience for users to browse menus, place orders, and track them, while empowering administrators with efficient management tools for users, menu items, and orders.
 
----
+## 📸 Project Previews
+
+Here are some preview images of the website:
+
+![Home Page](img/1.png)  
+![Menu Page](img/2.png)  
+![Order Page](img/3.png)  
+![Cart Page](img/4.png)  
+![Admin Dashboard](img/5.png)  
+![User Profile](img/6.png)  
 
 ## 🚀 Key Features
 

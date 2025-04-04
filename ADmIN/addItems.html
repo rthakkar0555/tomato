@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+    <link rel="stylesheet" href="addSty.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div id="acc">
+                <img src="profile_image.png" alt="prfile">
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <nav>
+            <div class="sideBar">
+                <div class="sideBarOptions">
+                    <div class="sideBarOption">
+                        <img src="add_icon.png" alt="+">
+                        <p><a href="admin.html">Add Items</a></p>
+                    </div>
+                    <div class="sideBarOption">
+                        <img src="order_icon.png" alt="+">
+                        <p><a href="list.php">List Items</a></p>
+                    </div>
+                    <div class="sideBarOption">
+                        <img src="order_icon.png" alt="+">
+                        <p><a href="order.html">Orders</a></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="addd">
+                <form class="foRM" action="addProduct.php" method="POST" enctype="multipart/form-data">
+                    <div class="upl-img">
+                        <p><label for="img-upload">Upload Image</label></p>
+                        <input type="file" name="product_image" id="img-upload" accept="image/*">
+                    </div>
+                    <div class="Pr-name">
+                        <p><label for="prod-name">Product Name</label></p>
+                        <input type="text" name="prNm" id="prod-name" placeholder="Type here">
+                    </div>
+                    <div class="Pr-description">
+                        <p>
+                            <label for="prod-descn">Product Description</label>
+                        </p>
+                        <textarea rows="6" name="prDesc" id="prod-descn" placeholder="Write content here"></textarea>
+                    </div>
+                    <div class="combo">
+                        <div class="Pr-category">
+                            <p>
+                                <label for="catg">Product Category</label>
+                            </p>
+                            <select name="cat" id="catg">
+                                <option value="salad">Salad</option>
+                                <option value="rolls">Rolls</option>
+                                <option value="deserts">Deserts</option>
+                                <option value="sandwich">Sandwich</option>
+                                <option value="cake">Cake</option>
+                                <option value="pure veg">Pure Veg</option>
+                                <option value="pasta">Pasta</option>
+                                <option value="noodles">Noodles</option>
+                            </select>
+                        </div>
+                        <div class="Pr-price">
+                            <p>
+                                <label for="prPr">Product Price</label>
+                            </p>
+                            <input type="number" name="prPr" id="prPr" placeholder="&#8377;">
+                        </div>
+                    </div>
+                    <div id="Butt">
+                        <button type="submit">ADD</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navB">
+            <div class="bar1">
+                <a href="index.php"><img src="icons/logo.png" alt="logo"></a>
+            </div>
+            <div class="bar2">
+                <ul class="menu">
+                    <li class="menuItem"><a href="index.php">home</a></li>
+                    <li class="menuItem"><a href="index.php#explore-menu">menu</a></li>
+                    <li class="menuItem"><a href="#app-down">mobile app</a></li>
+                    <li class="menuItem"><a href="#foot">contact us</a></li>
+                </ul>
+            </div>
+            <div class="bar3">
+                <button id="src" onclick="search()"><img src="icons/search_icon.png" alt="search"></button>
+                <a href="index.php"><img src="icons/basket_icon.png" alt="basket"></a>
+                <div class="navB-pf">
+                    <img src="icons/profile_icon.png" alt="pf">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cart-box">
+            <div class="table">
+                <div class="table-title">
+                    <b>Items</b>
+                    <b>Title</b>
+                    <b>Price</b>
+                    <b>Quantity</b>
+                    <b>Total</b>
+                    <b>Remove</b>
+                </div>
+                <div class="taple-cont">
+                    <p><img src="icons/food_1.png" alt="food1"></p>
+                    <p>Greek salad</p>
+                    <p>&nbsp;&nbsp;&nbsp; &#8377;100</p>
+                    <p class="boxincart">2</p>
+                    <p>&nbsp;&nbsp;&#8377;200</p>
+                    <p>&emsp;&emsp;&emsp;x</p>
+                </div>
+                <div class="taple-cont">
+                    <p><img src="icons/food_2.png" alt="food1"></p>
+                    <p>Veg salad</p>
+                    <p>&nbsp;&nbsp;&nbsp; &#8377;200</p>
+                    <p class="boxincart">3</p>
+                    <p>&nbsp;&nbsp;&#8377;600</p>
+                    <p>&emsp;&emsp;&emsp;x</p>
+                </div>
+            </div>
+        </div>
+        <div class="tot">
+            <div class="tot1">
+                <h2>Cart Total</h2>
+                <div class="in-tot">
+                    <p>Subtotal</p>
+                    <p class="alin">&nbsp; &#8377;800</p>
+                </div>
+                <div class="in-tot">
+                    <p>Delivery Fee</p>
+                    <p class="alin">&nbsp; &#8377;40</p>
+                </div>
+                <div class="in-tot" id="in-tot-spe">
+                    <p><b>Total</b></p>
+                    <p class="alin">&nbsp; <b>&#8377;840</b></p>
+                </div>
+                <a href="delInfo.html"><button class="pts" id="proceedToPayBtn">PROCEED TO CHECKOUT</button></a>
+            </div>
+            <div class="tot2">
+                <p>If you have a promo code, Enter it here</p>
+                <input type="text" placeholder="promo code" class="promo">
+                <button class="promobtn">Submit</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot" id="foot">
+            <div class="foot-cont">
+<div class="foot-cont-L">
+                    <img src="icons/logo.png" alt="logo">
+                    <hr>
+                    <p>
+                        Bringing delicious meals right to your doorstep, <br>
+                        because every craving deserves a quick and tasty solution! <br>
+                        Crafted with <span style="color:tomato;">&#10084;</span> By #.A.R.M <br>
+                        .Apurv <br>.Rishi <br> .Malay<br>
+                    </p>
+                <div class="foot-soc">
+                    <img src="icons/facebook_icon.png" alt="fb">
+                    <img src="icons/twitter_icon.png" alt="twr">
+                    <img src="icons/linkedin_icon.png" alt="li">
+                </div>
+            </div>
+                <div class="foot-cont-C">
+                                        <h2>COMPANY</h2>
+                                        <hr>
+                    <ul>
+                        <a href="https://globalgreengroup.com/tomatoes/"><li>Home</li></a>
+                        <li>About us</li>
+                        <li>Delivery</li>
+                        <a href="https://www.termsfeed.com/live/6bbaaabf-1a66-42bd-9389-30f3fe723e9d"><li>Privacy policy</li></a>
+                    </ul>
+                </div>
+                <div class="foot-cont-R">
+                    <h2>GET IN TOUCH</h2>
+                    <hr>
+                    <ul>
+                        <li>+91-143143143</li>
+                        <li>iloveyou@heart.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+                <p class="foot-cp">Copyright 2024 &copy; Tomato.com - All Right Reserved.</p>
+        </div>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+/* Existing CSS */
+
+* {
+    font-family: outfit;
+}   
+p {
+    margin: 0px 0px;
+}
+.navB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.bar1 img {
+    width: 150px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+.bar3 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menuItem:active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.menuItem {
+    cursor: pointer;
+}
+.foot {
+    margin-top: 100px;
+    color: #fffbe6;
+    background-color: #2e4f25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+}
+.foot-cont {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+}
+.foot-cont-R h2, .foot-cont-C h2 {
+    margin: 0px 0px;
+    color: #FCCD2A;
+}
+.foot-cont-R ul, .foot-cont-C ul {
+    padding-left: 0px;
+}
+.foot-cont-L, .foot-cont-R, .foot-cont-C {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.foot-cont-L li, .foot-cont-R li, .foot-cont-C li {
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.foot-soc img {
+    width: 40px;
+    margin-right: 15px;
+}
+.foot hr {
+    width: 100%;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: gray;
+    border: none;
+}
+.food-item:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 0px 20px #000000df;
+    transition: 1s;
+}
+.menuItem a {
+    text-decoration: none;
+    color: #49557e;
+}
+.foot-cont-C a {
+    text-decoration: none;
+    color: #fffbe6;
+}
+.cart-box {
+    margin-top: 50px;
+    font-family: arial;
+    color: #6d6d6d;
+    width: 1195px;
+    margin: auto;
+    margin-top: 60px;
+}
+.table-title {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr;
+    align-items: center;
+    gap: 30px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: 100;
+}
+.taple-cont {
+    color: black;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    border: 1px solid #cacaca;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.taple-cont img {
+    width: 50px;
+}
+.boxincart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    padding: 5px;
+    border: 1px solid #cacaca66;
+    background-color: rgba(245, 245, 245, 0.1);
+    border-radius: 5px;
+    margin-left: 26px;
+    gap: 5px;
+}
+.boxincart button {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 30px;
+}
+.boxincart span {
+    text-align: center;
+    width: 30px;
+    line-height: 30px;
+}
+.in-tot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    align-items: center;
+    gap: 300px;
+    padding: 10px 0px;
+    border-bottom: 1.3px solid #cacaca;
+    font-size: 15px;
+    color: #6d6d6d;
+}
+.tot {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    display: flex;
+}
+#in-tot-spe {
+    border-bottom: none;
+}
+h2 {
+    margin: 10px 0px;
+}
+.alin {
+    text-align: right;
+}
+.tot .pts {
+    background-color: tomato;
+    border: 1px solid tomato;
+    padding: 10px 10px;
+    width: 300px;
+    height: 40px;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 7px;
+}
+.tot2 {
+    margin-left: 13rem;
+    margin-top: .6rem;
+    color: #7b6e6e;
+}
+.promo {
+    width: 350px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 12px;
+    margin-top: 10px;
+    background-color: #cacaca;
+    border: none;
+    margin-right: 0px;
+    position: relative;
+    border-radius: 4px;
+}
+.promobtn {
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 0px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-20px,10px);
+}

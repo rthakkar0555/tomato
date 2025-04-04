@@ -1,0 +1,114 @@
+*{
+    font-family: outfit;
+}
+html { 
+    background: url(icons/bg2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.68);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+}
+.c1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inside-c1-1{
+    margin: 0px 0px; 
+    font-weight: 500;
+    color: darkblue;
+}
+.inside-c1-2{
+    margin: 0px 0px; 
+    font-weight: 300;
+    font-size:x-large;
+    background: transparent;
+    border: none;
+}
+.c2-em{
+    background: transparent;
+    margin-top: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    border: .5px solid black;
+    width: 260px;
+    height: 30px;
+}
+.c2-em::placeholder{
+    color: black;
+}
+.c2-pass{
+    background: transparent;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    border: .5px solid black;
+    width: 260px;
+    height: 30px;
+}
+.c2-pass::placeholder{
+    color: black;
+}
+.c2-btn{
+    background-color: tomato;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    border: .5px solid tomato;
+    width: 291.6px;
+    height: 39.6px;
+    color: white;
+}
+.c2-pp{
+    margin-top: 18px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+input.c2-pp{
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 6px solid tomato;
+}
+.prp{
+    display: flex;
+}
+.pp1{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+input[type='checkbox'] {
+    accent-color: tomato;
+}
+.nusr{
+    margin-top: 35px;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+.nusr span{
+    color: darkred;
+}
+a{
+    text-decoration: none;
+}

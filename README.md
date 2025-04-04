@@ -42,19 +42,18 @@ Tomato is a food delivery website designed for a **local restaurant**, built usi
 Download and install **[XAMPP](https://www.apachefriends.org/download.html)**.
 
 ### 2️⃣ Clone the Repository
-```sh
 git clone https://github.com/rthakkar0555/tomato.git
 
-###3️⃣ Move Files to XAMPP Directory
+3️⃣ Move Files to XAMPP Directory
 Move the tomato folder inside the htdocs directory of XAMPP:
 C:\xampp\htdocs\tomato\
 
-###4️⃣ Start Apache & MySQL in XAMPP
+4️⃣ Start Apache & MySQL in XAMPP
 Open XAMPP Control Panel.
 Click Start next to Apache.
 Click Start next to MySQL.
 
-###5️⃣ Import Database
+5️⃣ Import Database
 Open your browser and go to phpMyAdmin (http://localhost/phpmyadmin/).
 Click on Databases > Create New Database.
 Name it tomato and click Create.
@@ -62,7 +61,7 @@ Go to the Import tab.
 Click Choose File, select the tomato.sql file from the project folder.
 Click Go to import the database.
 
-###6️⃣ Configure Database Connection
+6️⃣ Configure Database Connection
 Open the file db_config.php inside the project folder.
 
 Update the MySQL credentials if needed:
@@ -71,7 +70,7 @@ $user = "root"; // Default username
 $password = ""; // Default is empty
 $database = "tomato";
 
-###7️⃣ Run the Project
+7️⃣ Run the Project
 Open your browser.
 Visit http://localhost/tomato/.
 Enjoy ordering your food online! 
